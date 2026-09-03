@@ -1,0 +1,20 @@
+# Compilados
+*.o
+*.a
+GEMINI/agent
+AGENTE_ENTREGA/agent
+
+# Archivos de alarma generados en ejecución
+GEMINI/ALARM/
+AGENTE_ENTREGA/ALARM/
+
+# Configuración local con secretos
+env.sh
+*.env
+agente_esp32/secrets.conf
+
+# Respuestas de debug de la API
+/tmp/gemini_response.json
+
+# macOS
+.DS_Store

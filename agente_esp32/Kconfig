@@ -1,0 +1,15 @@
+mainmenu "Agente Predictivo ESP32-S3"
+
+config GEMINI_API_KEY
+    string "API Key de Google Gemini"
+    default ""
+
+config WIFI_SSID
+    string "SSID de la red WiFi"
+    default ""
+
+config WIFI_PASSWORD
+    string "Contraseña de la red WiFi"
+    default ""
+
+source "Kconfig.zephyr"
